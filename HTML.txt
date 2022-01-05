@@ -1,0 +1,174 @@
+In VSC to get the basic code of HTML-
+create html file-
+ex- hello.html 
+in this press ctrl+spacebar => choose HTML sample
+
+127.0.0.1 ==> IP for localhost
+for live server - default port no - 5500
+
+100% width = 1000px
+
+preformatted text  - <pre>   </pre>
+====================
+HTML Entities -   &   ;
+copyright - &copy;
+regiter - &reg;
+ampercend - &amp;
+less than - &lt;
+greater than - &gt;
+nonbreaking space - &nbsp; (1 space)
+emphsized space - &emsp; (tab space=4 spaces)
+============================================
+
+meta tag - (information about webpage)
+meta data = data about data
+
+keywords 
+<meta charset = "utf-8"> 
+unicode transformation format 8
+viewport - > To make website responsive (on every screen size the view of web page should be same) 
+
+
+<font color="red"></font>
+
+HEX color code = 00 to FF
+				#_R_ _G_ _B_
+				#FF0000
+RGB(RED,GREEN,BLUE)  =>0 to 255 RGB(255,0,0)
+
+==================================
+<div></div> - division tag used to divide the web page into some sections.
+takes 100% width
+height => according to the content
+
+
+<section></section>
+================================
+<img> - empty tag
+
+attributes-
+1. src 
+<img src="path of image">
+
+or 
+
+<br>  => <br/>
+
+<figure>
+	<img src="">
+	<figcaption>image1</figcaption>
+</figure>
+
+
+=============================================
+List -
+1. ordered list (1,A,a,i,I)
+2. unordered list (disc,circle,square)
+3. definition list -
+	HTML
+	    Used to describe web page.
+1. Ordered list -
+	<ol></ol>
+	To specify list elements - <li></li>
+	
+	Ex- 
+	<h1>List of Students</h1>
+	<ol>
+		<li>Peter</li>
+		<li>Walter</li>
+		<li>Olive</li>
+		<li>Smith>/li>
+	</ol>
+
+1. Peter
+2. Walter
+3. Olive
+4. Smith
+
+Attributes-
+1. type - <ol type="A">  </ol>
+2. start - starting position of list
+3. reversed - reversed the list
+
+--------------------------------
+2. unordered list -
+<ul></ul>
+bydefault - disc
+1. type = disc/square/circle
+
+==========================
+Nested List -
+
+1. Shirts
+	a. casual
+	b. formal
+2.Shoes
+	. Girls
+	. boys
+	. kids
+3. Pant
+	i. casual
+	ii. formal
+	
+
+<ol>
+	<li>Shirts</li>
+	<li>Shoes</li>
+	<li>Pant</li>
+</ol>
+
+
+====================================
+3. definition list -
+	<dl>
+		<dt></dt>
+		<dd></dd>
+	</dl>
+
+dl - definition list
+dt - definition term
+dd - data definition
+
+<dl>
+	<dt>HTML</dt>
+	<dd>Used to describe web page</dd>
+</dl>
+
+===================================================
+a tag - Anchor tag
+used to make hyperlinks. (text /image with extra functionality)
+
+means by using a tag we can make a text or a image clickable.
+
+Two Types of hyperlinks -
+1. external -> when we click on the link a new page  will get open.
+ex -  mostly all websites have external links	
+2. internal - when we click on the link we will redirect somewhere else in the same page.
+ex - wikipedia
+
+Attributes of a tag- 
+1. href (hyperlink reference)
+
+<a href="path">Click Me!!</a>
+
+2. accessKey
+3. download
+4. target = self (By default) ,blank (new tab),framename
+====================================================
+every tag in HTML have two common  attributes -
+1. id
+2. name
+
+<h1 id="heading"></h1>
+<p name="para"></p>
+
+accesskey - Google Chrome - Alt + key
+==============================================
+marquee tag - <marquee>
+					hello
+				<marquee>
+Attribute - 1. direction - left (by default) eans right to left
+right => left to right
+up => bottom to top
+down = top to bottom
+2. behavior -scroll (default),slide and alternate
